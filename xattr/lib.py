@@ -11,7 +11,7 @@ XATTR_MAXNAMELEN = 1024
 XATTR_FINDERINFO_NAME = False
 XATTR_RESOURCEFORK_NAME = False
 
-xattr_dir = '.'
+xattr_dir = '/etc/swift/xattrs'
 
 
 def get_inode_from_path(path):
